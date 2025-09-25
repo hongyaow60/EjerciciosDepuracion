@@ -5,6 +5,15 @@ package ejercicios.depuracion;
  */
 import java.util.*;
 public class Ejemplo2While {
+   
+    public static int pedirNumero(){
+        Scanner sc = new Scanner (System.in);
+        System.out.print("Introduce un numero: git status");
+        return sc.nextInt();
+    }
+   
+   
+   
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n, contador = 0;
