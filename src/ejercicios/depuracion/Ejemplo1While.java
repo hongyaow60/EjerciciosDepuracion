@@ -5,7 +5,7 @@ public class Ejemplo1While {
     public static void main(String[] args) {
         int suma = 0, num;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Introduzca un número: ");
+        System.out.print("Introduzca un número, por favor: ");
         num = sc.nextInt();
         while (num>= 0){
                suma = suma + num;
