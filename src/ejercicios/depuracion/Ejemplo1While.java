@@ -6,7 +6,7 @@ public class Ejemplo1While {
     private int suma, num;
     public Ejercicios1While()(
         this.suma=0;
-        this.num=0;
+        this.contador=0;
     )
     public static void main(String[] args) {
         int suma = 0, num;
